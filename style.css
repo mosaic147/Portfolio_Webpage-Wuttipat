@@ -1,0 +1,397 @@
+@import url('https://fonts.googleapis.com/css?family=Chakra+Petch&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    padding-bottom: 40px;
+    background-color: black;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    /*css smooth scroll*/
+}
+.navbar{
+    position: fixed;
+    top: 0;
+    display: flex;
+    width: 100%;
+    height: 60px;
+    background-color:  rgba(0,0,0);
+}
+.navbar ul{
+    display:flex;
+    list-style: none;
+    width: 100%;
+    justify-content: center;
+}
+.navbar ul li{
+    margin: 0 10px;
+}
+.navbar ul li a{  
+       text-decoration: none;
+       color: white;
+       transition: 0.3s;
+       font-family: 'Bebas Neue', cursive;
+       font-size: 30px;
+}
+.navbar ul li a:hover{
+    text-decoration: none;
+    color: #e84545;
+    transition: 0.3s;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    
+}
+
+.bg_header{
+    background-color: #0c056d;
+    background-image: linear-gradient(180deg,#2d132c,#801336,#c72c41);
+    padding-bottom: 80px;
+    margin-top: 60px;
+    width: 100%;
+    height: 100%;
+}
+.container-port{
+    text-align: center;
+}
+.text_portfolio{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 80px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    width: 25%;
+    display: inline-block;
+    color:white;
+    border: 3px solid white ;
+}
+.img_nut img{
+    border-radius: 50%;
+    width: 20%;
+    height: 20%;
+    border: 5px solid white;
+}
+.img_nut{
+    text-align: center;
+}
+.name{
+    text-align: center;
+    font-family: 'Bebas Neue', cursive; 
+}
+.name h1{
+    border: 3px solid white;
+    background-color: white;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 50px;
+    font-size: 50px;
+}
+.bg_information{
+    width: 100%;
+    height: 100%;
+    background-color: #2d132c;
+    background-image: linear-gradient(-360deg,#303841,#3a4750,#d72323);
+    padding-bottom: 50px;
+}
+.container-info{
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.container-list{
+    text-align: center;
+    display: inline-block;  
+}
+.text_information{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 80px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    width: 25%;
+    display: inline-block;
+    background-color: transparent;
+    color:white;
+    border: 3px solid white ;   
+}
+.list-hobby{
+    border: 3px solid white;
+    padding: 30px;
+    background: rgba(0,0,0,0.4);
+    margin-right: 20px;  
+}
+.list-hobby h1{
+    color: black;
+    font-family: 'Bebas Neue', cursive;
+    display: inline-block;
+    padding: 20px;
+    transition: 0.4s;
+    font-size: 50px;
+    background-color: gold;  
+}
+.list-hobby h1:hover{
+    background-color: black;
+    color: gold;
+    transition: 0.4s;
+ }
+.list-hobby ul{
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    border: none;
+    font-size: 36px;
+    text-align: left;
+    height: 100%;   
+}
+.contain-inline{
+    text-align: left;
+    margin-left: 40px;
+    display: inline-block;
+}
+.list-skills{
+    border: 3px solid white;
+    padding: 30px;
+    background: rgba(0,0,0,0.4);
+    display: inline-block;
+    margin-right: 20px;
+    
+}
+.list-skills h1{
+    color: black;
+    font-family: 'Bebas Neue', cursive;
+    display: inline-block;
+    padding: 20px;
+    transition: 0.4s;
+    font-size: 50px;
+    background-color: gold;
+}
+.list-skills h1:hover{
+    background-color: black;
+    color: gold;
+    transition: 0.4s;
+ }
+.list-skills ul{
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    border: none;
+    font-size: 36px;
+    text-align: left;
+    height: 100%;
+}
+.list-interesting{
+    border: 3px solid white;
+    padding: 30px;
+    background: rgba(0,0,0,0.4);
+    display: inline-block; 
+}
+.list-interesting h1{
+    color: black;
+    font-family: 'Bebas Neue', cursive;
+    display: inline-block;
+    padding: 20px;
+    font-size: 50px;
+    background-color: gold;
+    transition: 0.4s;
+}
+.list-interesting h1:hover{
+   background-color: black;
+   color: gold;
+   transition: 0.4s;
+}
+.list-interesting ul{
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    border: none;
+    font-size: 36px;
+    text-align: left;
+    height: 100%;
+}
+.contact-facebook{
+    right: 0;
+    bottom: 250px;
+    position: fixed;
+}
+.contact-facebook h1{
+    font-family: 'Bebas Neue', cursive;
+    background: gold;
+    text-align: center;
+}
+.contact-facebook img{
+
+   width: 200px;
+   height: 200px;
+   text-align: center;
+   transition: 0.3s;
+}
+.contact-facebook img:hover{
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    transition: 0.3s;
+ }
+ 
+.btnProject{
+    text-align: center;
+    margin-top: 50px;
+    background-color: black;
+}
+.btn-next{
+    border: none;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 45px;
+    background-color: black;
+    border: 3px solid white;
+    padding: 20px;
+    border-radius: 100px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.btn-next a{
+    text-decoration: none;
+    color: white;
+    font-size: 45px;
+    transition: 0.3s;
+}
+.btn-next a:hover{
+    text-decoration: none;
+    transition: 0.3s;
+    color: gold;
+}
+/* End Portfolio */
+.bg-project{
+    background-image: url(images/BG_Sky.jpg);
+}
+
+
+.header_project{
+    text-align: center;
+    
+}
+
+.header_project h1{
+    background: -webkit-linear-gradient(180deg,#f6ef98,#23eae6,#1b7fbd);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 120px;
+    font-family: 'Bebas Neue', cursive;
+    display: inline-block;
+    padding: 25px;
+    margin: 0;
+}
+
+
+.move_text1{
+    text-align: center;
+}
+
+.text1{
+   text-align: left;
+   margin-left: 50px;
+   display: inline-block;
+}
+
+.text1 h1{
+     color:white;
+     font-family: 'Bebas Neue', cursive;
+     font-size: 50px;
+     border: 3px solid white;
+     text-align: center;
+     padding: 20px;
+     border-radius: 100px;
+}
+
+.img_project1{
+   text-align: center;
+    
+}
+
+
+.img_project1 img{ 
+    width: 25%;
+    height: 25%;
+    margin: 0 10px;
+
+}
+
+
+.set_infoProject1{
+    text-align: center;
+}
+
+.container_infoProject1{
+    display: inline;
+    text-align: center;
+}
+
+.container_infoProject1 ul{
+  display: inline-block;
+  border: 3px solid white;
+  padding-right: 20px;
+  
+}
+
+
+.container_infoProject1 li{
+      text-align: left;
+      color: white;
+      
+}
+
+
+.container_infoProject1 h1{
+ color: white;
+ font-family: 'Chakra Petch', sans-serif;
+ font-size: 32px;
+ text-align: center;
+ border: 2px solid white;
+ display: inline-block;
+ padding: 15px;
+ 
+ background-image: linear-gradient(45deg,#08d9d6,#252a34,#ff2e63);
+ border-radius: 100px;
+}
+
+.container_infoProject1 p{
+    color: white;
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 20px;
+    text-align: left;
+    display: inline-block;
+   }
+
+   .btnBack_portfolio{
+    border: none;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 45px;
+    background-color: black;
+    border: 3px solid white;
+    padding: 20px;
+    border-radius: 100px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.btnBack_portfolio a{
+    text-decoration: none;
+    color: white;
+    font-size: 45px;
+    transition: 0.3s;
+}
+.btnBack_portfolio a:hover{
+    text-decoration: none;
+    transition: 0.3s;
+    color: gold;
+}
+
+.btnPortfolio{
+    text-align: center;
+    margin-top: 20px;
+}
+
+
